@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: cursive;
+}
+
+header {
+  color: white;
+  padding: 05px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  font-family: cursive;
+  text-shadow: 10px 10px 5px black;
+  font-size: x-large;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  font-size: x-large;
+  text-shadow: 10px 10px 5px black;
+  list-style: none;
+  color: white;
+}
+
+.section {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+.first {
+  background-image: url(./1stcheese.webp);
+}
+
+.ct {
+  position: absolute;
+  left: 100px;
+  bottom: 150px;
+  color: white;
+  font-size: 30px;
+  text-shadow: 10px 10px 5px black;
+}
+
+.second {
+  background-image: url(./2ndcheese.avif);
+}
+.third {
+  background-image: url(./5thcheese.jpg);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  color: yellow;
+}
